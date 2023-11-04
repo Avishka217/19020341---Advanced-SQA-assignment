@@ -50,12 +50,12 @@ public class UsersPage extends TestBase  {
         WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(this.lastName));
         this.lastName.sendKeys(lastName);
-        log.info("First name entered as "+ lastName);
+        log.info("Last name entered as "+ lastName);
     }
 
     public void enterEmail(String email) {
         WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.elementToBeClickable(this.lastName));
+        wait.until(ExpectedConditions.elementToBeClickable(this.email));
         this.email.sendKeys(email);
         log.info("Email entered as "+ email);
     }

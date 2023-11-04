@@ -72,12 +72,12 @@ public class ActitimeStepDefinitions extends TestBase {
 		usersPage.clickNewUserButton();
 	}
 
-	@Then("^User Enter  First Name as  \"([^\"]*)\"$")
+	@Then("^User Enter First Name as  \"([^\"]*)\"$")
 	public void user_Enter_First_Name_as(String firstName) throws Throwable {
 		usersPage.enterFirstName(firstName);
 	}
 
-	@Then("^User Enter Last  Name as  \"([^\"]*)\"$")
+	@Then("^User Enter Last Name as  \"([^\"]*)\"$")
 	public void user_Enter_Last_Name_as(String lastName) throws Throwable {
 		usersPage.enterLastName(lastName);
 	}
